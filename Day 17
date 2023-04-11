@@ -1,0 +1,19 @@
+//1a) Here's a JavaScript program that displays the current URL of the document and the size of the window in pixels using the browser object model:
+
+console.log("Current URL: " + window.location.href);
+console.log("Window size: " + window.innerWidth + " x " + window.innerHeight + " pixels");
+
+//1b) The location object and the history object are both part of the browser object model, but they serve different purposes. The location object is used to get information about the current URL and to navigate to new URLs, while the history object is used to navigate back and forth through the user's browsing history.
+
+//Example scenario for location object: Let's say you have a web page with a form that allows users to enter their location. When the user submits the form, you want to redirect them to a page that shows them the weather forecast for their location. You can use the location object to get the user's location from the form data and construct a new URL for the weather forecast page, then use the location object to navigate to that URL.
+
+//Example scenario for history object: Let's say you have a single-page web application that uses JavaScript to update the content on the page dynamically, without refreshing the page. You want to give users the ability to navigate back and forth through the changes they've made to the page. You can use the history object to keep track of the user's navigation history and allow them to go back and forth through their changes.
+
+//2a) Here's a JavaScript program that uses the screen object to display the width and height of the screen in pixels, as well as the color depth of the screen:
+
+console.log("Screen size: " + screen.width + " x " + screen.height + " pixels");
+console.log("Color depth: " + screen.colorDepth + " bits per pixel");
+
+//2b) The navigator object in the browser object model provides information about the user's browser and operating system. It can be used to detect the browser name, version, and platform, as well as other information such as whether cookies and JavaScript are enabled.
+
+//Example scenario for navigator object: Let's say you have a web application that requires a specific version of a browser or a particular feature that is only available in certain browsers. You can use the navigator object to detect the user's browser and version, and display a message or redirect them to a page with instructions if their browser is not supported. You can also use the navigator object to detect whether the user's device is a desktop or mobile device and adjust the layout or functionality of your application accordingly.
